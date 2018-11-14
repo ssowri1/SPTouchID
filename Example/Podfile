@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPTouchID_Example' do
+  pod 'SPTouchID', :path => '../'
+
+  target 'SPTouchID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

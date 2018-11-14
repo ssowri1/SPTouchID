@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00FA9DDF219C9FBE00C68003 /* SPAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA9DDE219C9FBE00C68003 /* SPAuthentication.swift */; };
+		00FA9DE1219CAAAF00C68003 /* touchAnimationSS.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00FA9DE0219CAAAE00C68003 /* touchAnimationSS.gif */; };
 		13A7CD1E8B5C0DAB92A9327D5242E402 /* Pods-SPTouchID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D633A3262FE53D98A871870AA7B1A0 /* Pods-SPTouchID_Tests-dummy.m */; };
 		4C7DD0D8F60EDF73B1A786A4A9CBA265 /* Pods-SPTouchID_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3075C82A2532D7ABBDF83E555DCD25 /* Pods-SPTouchID_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69397F3EFDB41E595CA2CCD23D9B4F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		00FA9DDE219C9FBE00C68003 /* SPAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SPAuthentication.swift; path = ../SPTouchID/Classes/SPAuthentication.swift; sourceTree = "<group>"; };
+		00FA9DE0219CAAAE00C68003 /* touchAnimationSS.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = touchAnimationSS.gif; path = ../SPTouchID/Assets/touchAnimationSS.gif; sourceTree = "<group>"; };
 		043E67C4E16038B31510179A6C85C1E5 /* Pods-SPTouchID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPTouchID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		06C2FDB305927F3FB91BDE205421655B /* Pods-SPTouchID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPTouchID_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0C3075C82A2532D7ABBDF83E555DCD25 /* Pods-SPTouchID_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPTouchID_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		00FA9DDD219C9F6600C68003 /* SPAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				00FA9DE0219CAAAE00C68003 /* touchAnimationSS.gif */,
 				00FA9DDE219C9FBE00C68003 /* SPAuthentication.swift */,
 			);
 			path = SPAuthentication;
@@ -373,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FA9DE1219CAAAF00C68003 /* touchAnimationSS.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SPTouchID/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SPTouchID' => ['SPTouchID/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SPTouchID' => ['SPTouchID/Assets/*.gif']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SPTouchID'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Make a portable biometric authentication of your application!'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SPTouchID/Classes/**/*'
   
-   s.resource_bundles = {
-     'SPTouchID' => ['SPTouchID/Assets/*.gif']
-   }
+  # s.resource_bundles = {
+  #   'SPTouchID' => ['SPTouchID/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

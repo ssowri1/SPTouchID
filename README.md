@@ -11,26 +11,28 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-/// biometric class instance
-var biometricAuth = SPAuthentication()
-biometricAuth.delegate = self
-biometricAuth.start()
 
-
-// MARK:- Authentication delegates
-extension SPTouchIDViewController: LocalAuthDelegate {
-func authenticationFinished(string: String) {
-DispatchQueue.main.async {
-self.promtLabel.text = ""
-self.validationPassed()
-}
-}
-func authenticationFinishedWithError(error: String) {
-DispatchQueue.main.async {
-self.promtLabel.text = error
-}
-}
-}
+            //**** REQUIRED ****//
+            /// biometric class instance
+            var biometricAuth = SPAuthentication()
+            biometricAuth.delegate = self
+            biometricAuth.start()
+            
+            // MARK:- Authentication delegates
+            
+        extension SPTouchIDViewController: LocalAuthDelegate {
+        func authenticationFinished(string: String) {
+            DispatchQueue.main.async {
+              self.promtLabel.text = ""
+              self.validationPassed()
+            }
+        }
+        func authenticationFinishedWithError(error: String) {
+            DispatchQueue.main.async {
+              self.promtLabel.text = error
+            }
+          }
+        }
 
 ## Requirements
 

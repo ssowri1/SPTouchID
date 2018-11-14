@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SPTouchID'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Make a portable biometric authentication of your application!'
 
 # This description is used to generate tags and improve search results.

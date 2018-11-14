@@ -17,7 +17,7 @@ SPTouchID is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SPTouchID'
+pod 'SPTouchID','~> 0.1.4'
 ```
 
 ## Author

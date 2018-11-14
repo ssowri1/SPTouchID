@@ -1,0 +1,6 @@
+framework module Pods_SPTouchID_Example {
+  umbrella header "Pods-SPTouchID_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SPTouchID",
+  "version": "0.1.0",
+  "summary": "A short description of SPTouchID.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ssowri1/SPTouchID",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ssowri1": "ssowri1@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ssowri1/SPTouchID.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SPTouchID/Classes/**/*"
+}

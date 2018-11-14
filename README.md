@@ -5,9 +5,32 @@
 [![License](https://img.shields.io/cocoapods/l/SPTouchID.svg?style=flat)](https://cocoapods.org/pods/SPTouchID)
 [![Platform](https://img.shields.io/cocoapods/p/SPTouchID.svg?style=flat)](https://cocoapods.org/pods/SPTouchID)
 
+![Screenshot](https://github.com/ssowri1/SPTouchID/blob/50e041697b11dbcfb8cd0517663a755354c52170/SPTouchID/Assets/touchAnimationSS.gif?raw=true)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+/// biometric class instance
+var biometricAuth = SPAuthentication()
+biometricAuth.delegate = self
+biometricAuth.start()
+
+
+// MARK:- Authentication delegates
+extension SPTouchIDViewController: LocalAuthDelegate {
+func authenticationFinished(string: String) {
+DispatchQueue.main.async {
+self.promtLabel.text = ""
+self.validationPassed()
+}
+}
+func authenticationFinishedWithError(error: String) {
+DispatchQueue.main.async {
+self.promtLabel.text = error
+}
+}
+}
 
 ## Requirements
 
